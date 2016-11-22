@@ -15,8 +15,8 @@ namespace WebApiRentDrive.Models
         public int AutomovilId { get; set; }
         public int SucursalId { get; set; }
 
-        public virtual Sucursal Sucursal { get; set; }
         public virtual Cliente Cliente { get; set; }
         public virtual Automovil Automovil { get; set; }
+        public virtual Sucursal Sucursal { get; set; }
     }
 }
